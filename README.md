@@ -1,2 +1,2 @@
-# master-slaver-db
-Dockerize deploying master and slaver db, use Mysql DB as example
+# master-slave database
+Dockerize deploying master and slave db, using Mysql DB as example
