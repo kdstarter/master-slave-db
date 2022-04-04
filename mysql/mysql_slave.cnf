@@ -13,6 +13,8 @@
 # changes to the binary log between backups.
 # log_bin
 server_id=2
+gtid_mode=ON
+enforce_gtid_consistency=1
 
 #
 # Remove leading # to set options mainly useful for reporting servers.
