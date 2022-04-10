@@ -31,4 +31,4 @@ mysql -h 127.0.0.1 -P 3307 -u root -p'456' -e "SHOW slave status\G;" | grep Runn
 * Step4: 确认数据会自动同步，在主数据库创建或修改表数据，确认马上有同步到从数据库
 
 ## 测试主从同步性能
-* 可参考项目 [agilejzl/master-slave-db-demo](https://github.com/agilejzl/master-slave-db-demo)
+* 可参考项目 [kdstarter/master-slave-db-demo](https://github.com/kdstarter/master-slave-db-demo)

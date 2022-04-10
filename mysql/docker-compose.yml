@@ -10,7 +10,7 @@ services:
     container_name: mysql_master
     networks:
       - net-docker
-    mem_limit: 1024m
+    mem_limit: 512m
     # restart: always
     command: --default-authentication-plugin=mysql_native_password
     environment:
@@ -26,7 +26,7 @@ services:
     container_name: mysql_slave
     networks:
       - net-docker
-    mem_limit: 1024m
+    mem_limit: 512m
     # restart: always
     command: --default-authentication-plugin=mysql_native_password
     environment:

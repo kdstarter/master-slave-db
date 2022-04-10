@@ -8,3 +8,4 @@ START SLAVE;
 SHOW slave status\G;
 
 -- mysql -h 127.0.0.1 -P 3307 -u viewer -p'1234567'
+-- SHOW VARIABLES LIKE '%_query%';

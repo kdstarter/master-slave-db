@@ -16,6 +16,9 @@ server_id=2
 gtid_mode=ON
 enforce_gtid_consistency=ON
 
+slow_query_log=ON
+long_query_time=1.0
+
 #
 # Remove leading # to set options mainly useful for reporting servers.
 # The server defaults are faster for transactions and fast SELECTs.
